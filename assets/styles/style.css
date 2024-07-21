@@ -1,0 +1,43 @@
+@import url(reset.css);
+@import url(responsive.css);
+
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+h1 {
+    margin-top: 4%;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quadrado {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: gray;
+    display: inline-block;
+    padding: 40px;
+    margin: 5px;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.jogador {
+font-size: 30px;
+margin-top: 10px;
+}
+
+.vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    color: blueviolet;
+    size: 20px;
+}
+
+
