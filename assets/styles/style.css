@@ -3,7 +3,15 @@
 
 body {
     text-align: center;
-    background-color: pink;
+    background-color: #f8d7da;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 h1 {
@@ -12,16 +20,28 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+}
+
 .quadrado {
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    background: gray;
-    display: inline-block;
-    padding: 40px;
+    width: 80px;
+    height: 80px;
+    background: #555;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin: 5px;
     cursor: pointer;
-    color: palevioletred;
+    color: #f8d7da;
+    font-size: 2rem;
+    transition: background 0.3s ease;
+}
+
+.quadrado:hover {
+    background: #666;
 }
 
 .jogador {
@@ -36,8 +56,20 @@ margin-top: 10px;
 }
 
 button {
-    color: blueviolet;
-    size: 20px;
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
+
+button:hover {
+    background-color: #563d7c;
+}
+
+
 
 
