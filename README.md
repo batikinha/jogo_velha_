@@ -1,18 +1,18 @@
-# Jogo da Velha
+# Tic Tac Toe
 
-Um jogo da velha responsivo feito com HTML, CSS e JavaScript.
+A responsive tic-tac-toe game made with HTML, CSS and JavaScript.
 
-## Recursos
+## Features
 
-- **Dois jogadores:** X e O.
-- **Indicação de jogador atual.**
-- **Exibição do vencedor.**
-- **Reinício do jogo.**
-- **Rodapé personalizado.**
+- **Two players:** X and O.
+- **Current player indication.**
+- **Winner display.**
+- **Game restart.**
+- **Custom footer.**
 
-## Como Jogar
+## How to Play
 batikinha.github.io/jogo_velha_/
 
-## Disclaimer
-Esse projeto não é autoral. Montei ele com uso de IA e utilizei como base para estudos acerca de algoritmo e funções no JavaScript. 
+##Disclaimer
+This project is not copyright. I created it using AI and used it as a basis for studies on algorithms and functions in JavaScript.
 
